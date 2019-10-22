@@ -1,0 +1,55 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "204a8e12752733c99d473b76275989af",
+    "packages": [
+        {
+            "name": "naglfar/amper",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/naglfar666/amper.git",
+                "reference": "b7ada552d8cea81289733921f7799e7aecab54f3"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/naglfar666/amper/zipball/b7ada552d8cea81289733921f7799e7aecab54f3",
+                "reference": "b7ada552d8cea81289733921f7799e7aecab54f3",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.2.0"
+            },
+            "type": "engine",
+            "autoload": {
+                "psr-4": {
+                    "Amper\\": "src/Amper"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "description": "Simple REST API engine for PHP",
+            "keywords": [
+                "api",
+                "engine",
+                "rest"
+            ],
+            "time": "2019-10-20T18:25:02+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": {
+        "naglfar/amper": 20
+    },
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}

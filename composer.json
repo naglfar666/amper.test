@@ -1,0 +1,10 @@
+{
+    "require": {
+        "naglfar/amper": "dev-master"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/"
+        }
+    }
+}
