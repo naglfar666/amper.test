@@ -29,7 +29,14 @@ $Core = new Amper\Core();
 $Core->run();
 
 // $User = new App\Entities\UserEntity;
+// // $User->setId(3);
+// $User->setName('Bobster');
+// $User->setFname('Bob fname new');
 // $User->getMyName();
 $UserRepo = new App\Repositories\UserRepo;
-var_dump($UserRepo->findAll());
+$UserRepo->remove(5);
+// var_dump($UserRepo->save($User));
+// var_dump($UserRepo->findAllByIdOrName(1,'zxc'));
+// $UserRepo->findByIdOrderByIdLimit(1,5);
+// var_dump($UserRepo->findAll());
 ?>
