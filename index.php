@@ -1,34 +1,9 @@
 <?php
-/**
- * asdasd
- */
-class Test {
-  /**
-   * @ORM//id
-   */
-  private $id;
-  /**
-   * @DATA//id
-   */
-  public static function go()
-  {
-    // code...
-  }
-}
-/*
-$Data = new ReflectionClass('Test');
-var_dump($Data->getMethods()[0]->getDocComment());
-
-*/
 $start = microtime(true);
 $server_start = memory_get_usage(); // Нагрузка на сервер
 
-require_once('vendor/autoload.php');
-
 define('GLOBAL_DIR', __DIR__);
-//composer dump-autoload -o
-$Core = new Amper\Core();
-$Core->run();
+require_once(GLOBAL_DIR.'/config/bootstrapper.php');
 
 // $Migrate = new Amper\Migrate;
 // $Migrate->refresh();
