@@ -1,11 +1,11 @@
 <?php
 return [
-  'reset_cache' => false,
-  'script_cache' => true,
-  'middleware_cache' => true,
-  'router_cache' => true,
+  'reset_cache' => true,
+  'script_cache' => false,
+  'middleware_cache' => false,
+  'router_cache' => false,
   'router_cache_method' => 'file',
-  'entities_cache' => true,
+  'entities_cache' => false,
   'entities_cache_method' => 'file'
 ];
 ?>

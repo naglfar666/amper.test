@@ -29,6 +29,9 @@ define('GLOBAL_DIR', __DIR__);
 //composer dump-autoload -o
 $Core = new Amper\Core();
 $Core->run();
+
+// $Migrate = new Amper\Migrate;
+// $Migrate->refresh();
 // var_dump(opcache_get_status());
 // $User = new App\Entities\UserEntity;
 // // $User->setId(3);
@@ -36,6 +39,7 @@ $Core->run();
 // $User->setFname('Bob fname new');
 // $User->getMyName();
 // $UserRepo = new App\Repositories\UserRepo;
+// $UserRepo->save($User);
 // $UserRepo->remove(5);
 // var_dump($UserRepo->save($User));
 // var_dump($UserRepo->findAllByIdOrName(1,'zxc'));
