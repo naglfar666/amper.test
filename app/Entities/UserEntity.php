@@ -44,6 +44,19 @@ class UserEntity extends Entity{
    */
   private $dateAdd;
 
+  /**
+   * @Field : name=key_val_data_test, type=varchar
+   * @Nullable
+   * @var string
+   */
+  private $keyValDataTest;
+  /**
+   * @Field : name=second_val_test, type=varchar
+   * @Nullable
+   * @var string
+   */
+  private $secondValTest;
+
 
   /**
    * Get the value of id
@@ -161,6 +174,54 @@ class UserEntity extends Entity{
   public function setDateAdd($dateAdd)
   {
     $this->dateAdd = $dateAdd;
+
+    return $this;
+  }
+
+  /**
+   * Get the value of keyValDataTest
+   *
+   * @return  string
+   */ 
+  public function getKeyValDataTest()
+  {
+    return $this->keyValDataTest;
+  }
+
+  /**
+   * Set the value of keyValDataTest
+   *
+   * @param  string  $keyValDataTest
+   *
+   * @return  self
+   */ 
+  public function setKeyValDataTest(string $keyValDataTest)
+  {
+    $this->keyValDataTest = $keyValDataTest;
+
+    return $this;
+  }
+
+  /**
+   * Get the value of secondValTest
+   *
+   * @return  string
+   */ 
+  public function getSecondValTest()
+  {
+    return $this->secondValTest;
+  }
+
+  /**
+   * Set the value of secondValTest
+   *
+   * @param  string  $secondValTest
+   *
+   * @return  self
+   */ 
+  public function setSecondValTest(string $secondValTest)
+  {
+    $this->secondValTest = $secondValTest;
 
     return $this;
   }

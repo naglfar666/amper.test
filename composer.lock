@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "204a8e12752733c99d473b76275989af",
+    "content-hash": "cde8cc1a3cf873ff2f3cd5450eacdf87",
     "packages": [
         {
             "name": "naglfar/amper",
@@ -12,12 +12,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/naglfar666/amper.git",
-                "reference": "b7ada552d8cea81289733921f7799e7aecab54f3"
+                "reference": "2ab996bc59ec98cd51d0f02139d5fbe2147092de"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/naglfar666/amper/zipball/b7ada552d8cea81289733921f7799e7aecab54f3",
-                "reference": "b7ada552d8cea81289733921f7799e7aecab54f3",
+                "url": "https://api.github.com/repos/naglfar666/amper/zipball/2ab996bc59ec98cd51d0f02139d5fbe2147092de",
+                "reference": "2ab996bc59ec98cd51d0f02139d5fbe2147092de",
                 "shasum": ""
             },
             "require": {
@@ -39,7 +39,57 @@
                 "engine",
                 "rest"
             ],
-            "time": "2019-10-20T18:25:02+00:00"
+            "time": "2019-11-02T10:00:21+00:00"
+        },
+        {
+            "name": "predis/predis",
+            "version": "v1.1.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/nrk/predis.git",
+                "reference": "f0210e38881631afeafb56ab43405a92cafd9fd1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/nrk/predis/zipball/f0210e38881631afeafb56ab43405a92cafd9fd1",
+                "reference": "f0210e38881631afeafb56ab43405a92cafd9fd1",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.9"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "~4.8"
+            },
+            "suggest": {
+                "ext-curl": "Allows access to Webdis when paired with phpiredis",
+                "ext-phpiredis": "Allows faster serialization and deserialization of the Redis protocol"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Predis\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Daniele Alessandri",
+                    "email": "suppakilla@gmail.com",
+                    "homepage": "http://clorophilla.net"
+                }
+            ],
+            "description": "Flexible and feature-complete Redis client for PHP and HHVM",
+            "homepage": "http://github.com/nrk/predis",
+            "keywords": [
+                "nosql",
+                "predis",
+                "redis"
+            ],
+            "time": "2016-06-16T16:22:20+00:00"
         }
     ],
     "packages-dev": [],

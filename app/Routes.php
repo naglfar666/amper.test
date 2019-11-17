@@ -10,16 +10,16 @@ class Routes
   {
     $api_address = 'api\\v1\\';
 
-    $Router->options('/api/*', '', [ 'CorsMiddleware' ]);
+    // $Router->options('/api/*', '', [ 'CorsMiddleware' ]);
 
-    $Router->group('api/v1',
-    [
-      ['GET','{product}', $api_address.'ProductController@index'],
-      ['POST','{product}/show', $api_address.'ProductController@show']
-    ]);
+    // $Router->group('api/v1',
+    // [
+    //   ['GET','{product}', $api_address.'ProductController@index'],
+    //   ['POST','{product}/show', $api_address.'ProductController@show']
+    // ]);
 
     $Router
-      ->get('/api/v1/test', $api_address.'ProductController@test');
+      ->get('/api/v1/test', 'TestController@test');
   }
 }
 

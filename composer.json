@@ -1,6 +1,7 @@
 {
     "require": {
-        "naglfar/amper": "dev-master"
+        "naglfar/amper": "dev-master",
+        "predis/predis": "^1.1"
     },
     "autoload": {
         "psr-4": {
