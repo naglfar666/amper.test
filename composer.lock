@@ -12,12 +12,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/naglfar666/amper.git",
-                "reference": "2ab996bc59ec98cd51d0f02139d5fbe2147092de"
+                "reference": "16fbe7bde57baef6242d96cb523aa8f15c182771"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/naglfar666/amper/zipball/2ab996bc59ec98cd51d0f02139d5fbe2147092de",
-                "reference": "2ab996bc59ec98cd51d0f02139d5fbe2147092de",
+                "url": "https://api.github.com/repos/naglfar666/amper/zipball/16fbe7bde57baef6242d96cb523aa8f15c182771",
+                "reference": "16fbe7bde57baef6242d96cb523aa8f15c182771",
                 "shasum": ""
             },
             "require": {
@@ -39,7 +39,7 @@
                 "engine",
                 "rest"
             ],
-            "time": "2019-11-02T10:00:21+00:00"
+            "time": "2019-12-25T18:18:12+00:00"
         },
         {
             "name": "predis/predis",
